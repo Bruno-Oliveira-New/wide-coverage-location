@@ -1,0 +1,137 @@
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 30px 0px 80px 76px;
+}
+
+.header {
+    margin-right: 45px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0.88px;
+    word-spacing: 20px;
+    color: #17233d;
+}
+
+.button-header {
+    width: 100px;
+    height: 40px;
+    top: 20px;
+    left: 430px;
+    border-radius: 5px;
+    background: #6fbf44;
+    color: white;
+    border-color: #4cb538;
+    cursor: pointer;
+    border: none;
+}
+
+.img-logo {
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 86px;
+    margin-bottom: 100px;
+}
+
+h1 {
+    width: 582px;
+    height: 180px;
+    font-weight: 700;
+    font-size: 62px;
+    color: #161a49;
+    line-height: 60px;
+}
+
+p {
+    width: 493px;
+    height: 150px;
+    color: #4b505a;
+    word-spacing: 3px;
+    line-height: 30px;
+}
+
+.link-main {
+   width: 112px;
+   height: 27px;
+   font-weight: 500;
+   font-size: 18px;
+   color: #6fbf44;
+   cursor: pointer;
+}
+
+@media screen and (max-width:620px) {
+    
+    header {
+        margin: 20px;
+        justify-content: flex-end;
+    }
+
+    .header {
+        display: none;
+    }
+
+    .button-header {
+        width: 91px;
+        height: 31px;
+        border: none;
+        font-size: 12px;
+        line-height: 100%;
+        margin-left: 263px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        text-align: center; /* Centraliza os textos igual à foto */
+        padding: 0 20px;
+    }
+
+    section {
+        max-width: 100%;
+        margin: 0 0 40px 0; /* Remove as margens antigas do PC */
+    }
+
+    h1 {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        line-height: 30px;
+        margin: 40px 40px;      
+    }
+
+    p {
+        width: 304px;
+        height: 165px;
+        max-width: 100%;
+        font-size: 18px;
+        line-height: 33px;
+        margin: 30px 25px;
+    }
+
+    .img-logo {
+        width: 100%;       /* Ocupa a largura disponível do celular */
+        max-width: 320px;  /* Não deixa a imagem passar desse tamanho */
+        height: auto;      /* Mantém a proporção da imagem sem achatar */
+        margin: 20px 60px;
+    }
+
+    .link-main {
+        width: 112px;
+        height: 27px;
+        font-size: 18px;
+        line-height: 100%;
+    }
+}
